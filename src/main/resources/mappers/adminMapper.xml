@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lxiaow.bootplus.business.admin.mapper.adminMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lxiaow.bootplus.business.admin.entity.M_ADMIN">
+        <id column="ADM_ADMIN_ID" property="ADM_ADMIN_ID" />
+        <result column="ADM_ADMIN_NAME" property="ADM_ADMIN_NAME" />
+        <result column="ADM_ADMIN_PASSWORD" property="ADM_ADMIN_PASSWORD" />
+        <result column="ADM_IS_SUPER_ADMIN" property="ADM_IS_SUPER_ADMIN" />
+        <result column="ADM_STATUS" property="ADM_STATUS" />
+        <result column="ADM_ERROR_COUNT" property="ADM_ERROR_COUNT" />
+        <result column="ADM_LAST_LOGIN_TIME" property="ADM_LAST_LOGIN_TIME" />
+        <result column="ADM_PROVINCE" property="ADM_PROVINCE" />
+        <result column="ADM_ADMIN_PHONE" property="ADM_ADMIN_PHONE" />
+        <result column="ADM_ADMIN_EMAIL" property="ADM_ADMIN_EMAIL" />
+        <result column="GROUP_ID" property="GROUP_ID" />
+    </resultMap>
+
+</mapper>
